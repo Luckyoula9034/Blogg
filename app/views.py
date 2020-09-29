@@ -10,3 +10,11 @@ def index():
     '''
     massage ='welcome to the blog world'
     return render_template('index.html',massage=massage)
+
+@app.route('/blog/<blog_id>')
+def movie(blog_id):
+
+    '''
+    View movie page function that returns the movie details page and its data
+    '''
+    return render_template('blog.html',id = blog_id)
