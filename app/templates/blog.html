@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-        <title>STEVE'S BLOG APP - {{ title }}</title>
+        <title> - BLOG APP - {{ title }}</title>
     {% else %}
         <title>BLOG</title>
     {% endif %}
@@ -20,7 +20,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">STEVE BLOG</a>
+          <a class="navbar-brand mr-4" href="/">BLOG WORLD</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,9 +46,9 @@
     </header>
      <div class="steve">
      <div class="ongati text-center">
-     <h1>STEVE'S BLOG WEBSITE</h1>
+     <h1>BLOG WORLD</h1>
      <P>You can make your blog at anytime and any place.</P>
-     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-danger">START YOUR BLOG</button></a>
+     <a class="nav-item nav-link" href="{{ url_for('new_post') }}"><button type="button" class="btn btn-success">START YOUR BLOG</button></a>
      </div>
     </div>
     <main role="main" class="container">
@@ -57,7 +57,7 @@
           {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
               {% for category, message in messages %}
-                <div class="alert alert-{{ category }}">
+                <div ="alert alert-{{ category }}">
                   {{ message }}
                 </div>
               {% endfor %}
