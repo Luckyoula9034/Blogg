@@ -4,7 +4,7 @@ asn1crypto==0.24.0
 autopep8==1.5.4
 bcrypt==3.2.0
 blinker==1.4
-Brlapi==0.6.6
+# Brlapi==0.6.6
 certifi==2020.6.20
 cffi==1.14.3
 chardet==3.0.4
