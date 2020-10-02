@@ -13,7 +13,7 @@ click==7.1.2
 cryptography==2.1.4
 # cupshelpers==1.0
 # defer==1.0.6
-distro-info===0.18ubuntu0.18.04.1
+# distro-info===0.18ubuntu0.18.04.1
 dnspython==2.0.0
 dominate==2.5.2
 email-validator==1.1.1
