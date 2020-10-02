@@ -1,5 +1,5 @@
 alembic==1.4.3
-apturl==0.5.2
+
 asn1crypto==0.24.0
 autopep8==1.5.4
 bcrypt==3.2.0
