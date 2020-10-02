@@ -89,7 +89,7 @@ typing-extensions==3.7.4.3
 # ufw==0.36
 # unattended-upgrades==0.1
 urllib3==1.25.10
-usb-creator==0.3.3
+# usb-creator==0.3.3
 vboxapi==1.0
 virtualenv==15.1.0
 visitor==0.1.3
