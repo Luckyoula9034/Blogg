@@ -11,7 +11,9 @@ click==7.1.2
 colorama==0.3.7
 cryptography==2.1.4
 cycler==0.10.0
+dnspython==1.16.0
 dominate==2.5.2
+email-validator==1.1.1
 enum34==1.1.6
 Flask==1.1.2
 Flask-Bcrypt==0.7.1
@@ -42,7 +44,6 @@ Pillow==6.2.2
 psycopg2==2.8.6
 pycparser==2.20
 pycrypto==2.6.1
-
 pyinotify==0.9.6
 pyOpenSSL==17.5.0
 pyparsing==2.4.7
