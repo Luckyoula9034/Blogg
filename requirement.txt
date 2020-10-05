@@ -24,7 +24,7 @@ Flask-SimpleMDE==0.3.0
 Flask-SQLAlchemy==2.4.4
 Flask-Uploads==0.2.1
 Flask-WTF==0.14.3
-
+futures==3.3.0
 gunicorn==19.10.0
 idna==2.6
 ipaddress==1.0.17
@@ -42,7 +42,7 @@ Pillow==6.2.2
 psycopg2==2.8.6
 pycparser==2.20
 pycrypto==2.6.1
-
+pygobject==3.26.1
 pyinotify==0.9.6
 pyOpenSSL==17.5.0
 pyparsing==2.4.7
