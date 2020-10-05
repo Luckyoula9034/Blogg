@@ -38,7 +38,7 @@ numpy==1.16.6
 Pillow==6.2.2
 psycopg2==2.8.6
 pycrypto==2.6.1
-pygobject==3.26.1
+
 pyinotify==0.9.6
 pyOpenSSL==17.5.0
 pyparsing==2.4.7
